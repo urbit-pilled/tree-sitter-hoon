@@ -1,0 +1,77 @@
+==================
+lusbar_tall
+==================
+|_  @
++|  %label
+--
+---
+
+(source_file
+    (barcabTall (rune) (Gap) (aura) (Gap)
+        (lusbarTall (rune) (Gap) (term (name))) (Gap)
+    )
+)
+
+==================
+lusbuc_tall
+==================
+|_  @
++$  term  @
+--
+---
+
+(source_file
+    (barcabTall (rune) (Gap) (aura) (Gap)
+        (lusbucTall (rune) (Gap) (name) (Gap) (aura)) (Gap)
+    )
+)
+
+==================
+luslus_tall
+==================
+|_  @
+++  term  a
+--
+---
+
+(source_file
+    (barcabTall (rune) (Gap) (aura) (Gap)
+        (luslusTall (rune) (Gap) (name) (Gap) (name)) (Gap)
+    )
+)
+
+==================
+lustar_tall
+==================
+|_  @
++*  term  a
+    term  b
+    term  c
+--
+|_  @
++*  term  a
+++  x  (add z n)
+++  y  (sub z n)
+--
+---
+
+(source_file
+    (barcabTall (rune) (Gap) (aura) (Gap)
+        (lustarTall (rune) (Gap)
+            (name) (Gap) (name) (Gap)
+            (name) (Gap) (name) (Gap)
+            (name) (Gap) (name)
+        ) (Gap)
+    ) (Gap)
+    (barcabTall (rune) (Gap) (aura) (Gap)
+        (lustarTall (rune) (Gap)
+            (name) (Gap) (name)
+        ) (Gap)
+        (luslusTall (rune) (Gap)
+            (name) (Gap) (gateCall (name) (name) (name))
+        ) (Gap)
+        (luslusTall (rune) (Gap)
+            (name) (Gap) (gateCall (name) (name) (name))
+        ) (Gap)
+    )
+)

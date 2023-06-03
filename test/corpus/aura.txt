@@ -1,0 +1,12 @@
+==================
+basic aura
+==================
+@ud
+@p
+---
+
+(source_file
+    (aura)
+    (Gap)
+    (aura)
+)

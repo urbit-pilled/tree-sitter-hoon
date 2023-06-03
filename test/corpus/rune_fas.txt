@@ -1,0 +1,79 @@
+==================
+fashep_tall
+==================
+/-  a
+/-  a, *b, c
+/-  a, *b=d, c=e
+---
+
+(source_file
+    (fashepTall (rune) (Gap) (name)) (Gap)
+    (fashepTall (rune) (Gap) (name) (name) (name)) (Gap)
+    (fashepTall (rune) (Gap) (name) (name) (name) (name) (name))
+)
+
+==================
+faslus_tall
+==================
+/+  a
+/+  a, *b, c
+/+  a, *b=d, c=e
+---
+
+(source_file
+    (faslusTall (rune) (Gap) (name)) (Gap)
+    (faslusTall (rune) (Gap) (name) (name) (name)) (Gap)
+    (faslusTall (rune) (Gap) (name) (name) (name) (name) (name))
+)
+
+==================
+fastis_tall
+==================
+/=  a  /path/a/b/c
+---
+
+(source_file
+    (fastisTall (rune) (Gap) (name) (Gap) (path (name) (name) (name) (name)))
+)
+
+==================
+fastar_tall
+==================
+/*  a  %mark  /path/a/b/c
+---
+
+(source_file
+    (fastarTall (rune) (Gap) (name) (Gap) (term (name)) (Gap) (path (name) (name) (name) (name)))
+)
+
+==================
+fasbuc_tall
+==================
+/$  a  %mark1  %mark2
+---
+
+(source_file
+    (fasbucTall (rune) (Gap) (name) (Gap) (term (name)) (Gap) (term (name)))
+)
+
+==================
+fassig_tall
+==================
+/~  a  @  /path/a/b/c
+/~  a  (list @ud)  /path/a/b/c
+---
+
+(source_file
+    (fassigTall (rune) (Gap) (name) (Gap) (aura) (Gap) (path (name) (name) (name) (name))) (Gap)
+    (fassigTall (rune) (Gap) (name) (Gap) (gateCall (name) (aura)) (Gap) (path (name) (name) (name) (name)))
+)
+
+==================
+fascen_tall
+==================
+/%  a  %mark
+---
+
+(source_file
+    (fascenTall (rune) (Gap) (name) (Gap) (term (name)))
+)

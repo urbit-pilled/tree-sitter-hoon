@@ -1,0 +1,294 @@
+==================
+tisgar_tall
+==================
+=>  a  b
+---
+
+(source_file
+    (tisgarTall (rune) (Gap) (name) (Gap) (name))
+)
+
+==================
+tisgar_wide
+==================
+=>(a b)
+---
+
+(source_file
+    (tisgarWide (rune) (name) (name))
+)
+
+==================
+tisbar_tall
+==================
+=|  @  b
+---
+
+(source_file
+    (tisbarTall (rune) (Gap) (aura) (Gap) (name))
+)
+
+==================
+tisbar_wide
+==================
+=|(@ b)
+---
+
+(source_file
+    (tisbarWide (rune) (aura) (name))
+)
+
+==================
+tiscol_tall
+==================
+=:  $  a
+   a.b  c
+==
+123
+---
+
+(source_file
+    (tiscolTall (rune) (Gap) (name) (Gap) 
+    (name) (Gap)
+    (wingPath (name) (name)) (Gap)
+    (name) (Gap) (Gap)
+    (number)
+    )
+)
+
+==================
+tiscol_wide
+==================
+=:($ a, a.b c 123)
+---
+
+(source_file
+    (tiscolWide (rune) 
+    (name) (name)
+    (wingPath (name) (name)) (name)
+    (number)
+    )
+)
+
+==================
+tiscom_tall
+==================
+=,  a  b
+---
+
+(source_file
+    (tiscomTall (rune) (Gap) (name) (Gap) (name))
+)
+
+==================
+tiscom_wide
+==================
+=,(a b)
+---
+
+(source_file
+    (tiscomWide (rune) (name) (name))
+)
+
+==================
+tisdot_tall
+==================
+=.  $  a  b
+---
+
+(source_file
+    (tisdotTall (rune) (Gap) (name) (Gap) (name) (Gap) (name))
+)
+
+==================
+tisdot_wide
+==================
+=.($ a b)
+---
+
+(source_file
+    (tisdotWide (rune) (name) (name) (name))
+)
+
+==================
+tishep_tall
+==================
+=-  a  b
+---
+
+(source_file
+    (tishepTall (rune) (Gap) (name) (Gap) (name))
+)
+
+==================
+tishep_wide
+==================
+=-(a b)
+---
+
+(source_file
+    (tishepWide (rune) (name) (name))
+)
+
+==================
+tisket_tall
+==================
+=^  skin  $  a  b
+---
+
+(source_file
+    (tisketTall (rune) (Gap) (name) (Gap) (name) (Gap) (name) (Gap) (name))
+)
+
+==================
+tisket_wide
+==================
+=^(skin $ a b)
+---
+
+(source_file
+    (tisketWide (rune) (name) (name) (name) (name))
+)
+
+==================
+tisgal_tall
+==================
+=<  a  b
+---
+
+(source_file
+    (tisgalTall (rune) (Gap) (name) (Gap) (name))
+)
+
+==================
+tisgal_wide
+==================
+=<(a b)
+---
+
+(source_file
+    (tisgalWide (rune) (name) (name))
+)
+
+==================
+tisdot_wide
+==================
+=.($ a b)
+---
+
+(source_file
+    (tisdotWide (rune) (name) (name) (name))
+)
+
+==================
+tislus_tall
+==================
+=+  a  b
+---
+
+(source_file
+    (tislusTall (rune) (Gap) (name) (Gap) (name))
+)
+
+==================
+tislus_wide
+==================
+=+(a b)
+---
+
+(source_file
+    (tislusWide (rune) (name) (name))
+)
+
+==================
+tismic_tall
+==================
+=;  skin  a  b
+---
+
+(source_file
+    (tismicTall (rune) (Gap) (name) (Gap) (name) (Gap) (name))
+)
+
+==================
+tismic_wide
+==================
+=;(skin a b)
+---
+
+(source_file
+    (tismicWide (rune) (name) (name) (name))
+)
+
+==================
+tissig_tall
+==================
+=~  a
+b
+c
+1
+2
+3
+==
+---
+
+(source_file
+    (tissigTall (rune) (Gap)
+        (name) (Gap)
+        (name) (Gap)
+        (name) (Gap)
+        (number) (Gap)
+        (number) (Gap)
+        (number) (Gap)
+    )
+)
+
+==================
+tissig_wide
+==================
+=~(a b c 1 2 3)
+---
+
+(source_file
+    (tissigWide (rune) (name) (name) (name) (number) (number) (number))
+)
+
+==================
+tistar_tall
+==================
+=*  %term  a  b
+---
+
+(source_file
+    (tistarTall (rune) (Gap) (term (name)) (Gap) (name) (Gap) (name))
+)
+
+==================
+tistar_wide
+==================
+=*(%term a b)
+---
+
+(source_file
+    (tistarWide (rune) (term (name)) (name) (name))
+)
+
+==================
+tiswut_tall
+==================
+=?  $  a  b  c
+---
+
+(source_file
+    (tiswutTall (rune) (Gap) (name) (Gap) (name) (Gap) (name) (Gap) (name))
+)
+
+==================
+tiswut_wide
+==================
+=?($ a b c)
+---
+
+(source_file
+    (tiswutWide (rune) (name) (name) (name) (name))
+)

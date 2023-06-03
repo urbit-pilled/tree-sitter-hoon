@@ -1,0 +1,113 @@
+==================
+dotket_tall
+==================
+.^  @
+    a
+    b
+    c
+    d
+    e
+==
+---
+
+(source_file
+    (dotketTall (rune) (Gap)
+        (aura) (Gap)
+        (name) (Gap)
+        (name) (Gap)
+        (name) (Gap)
+        (name) (Gap)
+        (name) (Gap)
+    )
+)
+
+==================
+dotket_wide
+==================
+.^(@ a b c d e)
+---
+
+(source_file
+    (dotketWide (rune) (aura) (name) (name) (name) (name) (name))
+)
+
+==================
+dotlus_tall
+==================
+.+  a
+---
+
+(source_file
+    (dotlusTall (rune) (Gap) (name))
+)
+
+==================
+dotlus_wide
+==================
+.+(a)
+---
+
+(source_file
+    (dotlusWide (rune) (name))
+)
+
+==================
+dottar_tall
+==================
+.*  a  b
+---
+
+(source_file
+    (dottarTall (rune) (Gap) (name) (Gap) (name))
+)
+
+==================
+dottar_wide
+==================
+.*(a b)
+---
+
+(source_file
+    (dottarWide (rune) (name) (name))
+)
+
+==================
+dottis_tall
+==================
+.=  a  b
+---
+
+(source_file
+    (dottisTall (rune) (Gap) (name) (Gap) (name))
+)
+
+==================
+dottis_wide
+==================
+.=(a b)
+---
+
+(source_file
+    (dottisWide (rune) (name) (name))
+)
+
+
+==================
+dotwut_tall
+==================
+.?  a
+---
+
+(source_file
+    (dotwutTall (rune) (Gap) (name))
+)
+
+==================
+dotwut_wide
+==================
+.?(a)
+---
+
+(source_file
+    (dotwutWide (rune) (name))
+)

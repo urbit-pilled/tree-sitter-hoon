@@ -1,0 +1,137 @@
+==================
+colhep_tall
+==================
+:-  a  b
+---
+
+(source_file
+    (colhepTall (rune) (Gap) (name) (Gap) (name))
+)
+
+==================
+colhep_wide
+==================
+:-(a b)
+---
+
+(source_file
+    (colhepWide (rune) (name) (name))
+)
+
+==================
+colcab_tall
+==================
+:_  a  b
+---
+
+(source_file
+    (colcabTall (rune) (Gap) (name) (Gap) (name))
+)
+
+==================
+colcab_wide
+==================
+:_(a b)
+---
+
+(source_file
+    (colcabWide (rune) (name) (name))
+)
+
+==================
+collus_tall
+==================
+:+  a  b  c
+---
+
+(source_file
+    (collusTall (rune) (Gap) (name) (Gap) (name) (Gap) (name))
+)
+
+==================
+collus_wide
+==================
+:+(a b c)
+---
+
+(source_file
+    (collusWide (rune) (name) (name) (name))
+)
+
+==================
+colket_tall
+==================
+:^  a  b  c  d
+---
+
+(source_file
+    (colketTall (rune) (Gap) (name) (Gap) (name) (Gap) (name) (Gap) (name))
+)
+
+==================
+colket_wide
+==================
+:^(a b c d)
+---
+
+(source_file
+    (colketWide (rune) (name) (name) (name) (name))
+)
+
+==================
+coltar_tall
+==================
+:*  a
+    b
+    c
+    d
+==
+---
+
+(source_file
+    (coltarTall (rune) (Gap)
+        (name) (Gap)
+        (name) (Gap)
+        (name) (Gap)
+        (name) (Gap)
+    )
+)
+
+==================
+coltar_wide
+==================
+:*(a b c d)
+---
+
+(source_file
+    (coltarWide (rune) (name) (name) (name) (name))
+)
+
+==================
+colsig_tall
+==================
+:~  a
+    b
+    c
+    d
+==
+---
+
+(source_file
+    (colsigTall (rune) (Gap)
+        (name) (Gap)
+        (name) (Gap)
+        (name) (Gap)
+        (name) (Gap)
+    )
+)
+
+==================
+colsig_wide
+==================
+:~(a b c d)
+---
+
+(source_file
+    (colsigWide (rune) (name) (name) (name) (name))
+)

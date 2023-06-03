@@ -1,0 +1,302 @@
+==================
+bucbar_tall
+==================
+$|  @  b
+---
+
+(source_file
+    (bucbarTall (rune) (Gap) (aura) (Gap) (name))
+)
+
+==================
+bucbar_wide
+==================
+$|(@ b)
+---
+
+(source_file
+    (bucbarWide (rune) (aura) (name))
+)
+
+==================
+buccab_tall
+==================
+$_  a
+---
+
+(source_file
+    (buccabTall (rune) (Gap) (name))
+)
+
+==================
+buccab_wide
+==================
+$_(a)
+---
+
+(source_file
+    (buccabWide (rune) (name))
+)
+
+==================
+buccen_tall
+==================
+$%  [%term @]
+    [%1 @ud]
+    [%2 @p]
+    [%3 @ux]
+==
+---
+
+(source_file
+    (buccenTall (rune) (Gap)
+        (term (name)) (aura) (Gap)
+        (term (number)) (aura) (Gap)
+        (term (number)) (aura) (Gap)
+        (term (number)) (aura) (Gap)
+    )
+)
+
+==================
+buccen_wide
+==================
+$%([%term @] [%1 @ud] [%2 @p] [%3 @ux])
+---
+
+(source_file
+    (buccenWide (rune)
+        (term (name)) (aura)
+        (term (number)) (aura)
+        (term (number)) (aura)
+        (term (number)) (aura)
+    )
+)
+
+==================
+bucgal_tall
+==================
+$<  @  @ud
+---
+
+(source_file
+    (bucgalTall (rune) (Gap)
+        (aura) (Gap)
+        (aura)
+    )
+)
+
+==================
+bucgal_wide
+==================
+$<(@ @ud)
+---
+
+(source_file
+    (bucgalWide (rune) (aura) (aura))
+)
+
+==================
+bucgar_tall
+==================
+$>  @  @ud
+---
+
+(source_file
+    (bucgarTall (rune) (Gap)
+        (aura) (Gap)
+        (aura)
+    )
+)
+
+==================
+bucgar_wide
+==================
+$>(@ @ud)
+---
+
+(source_file
+    (bucgarWide (rune) (aura) (aura))
+)
+
+==================
+buchep_tall
+==================
+$-  @  @ud
+---
+
+(source_file
+    (buchepTall (rune) (Gap)
+        (aura) (Gap)
+        (aura)
+    )
+)
+
+==================
+buchep_wide
+==================
+$-(@ @ud)
+---
+
+(source_file
+    (buchepWide (rune) (aura) (aura))
+)
+
+==================
+bucket_tall
+==================
+$^  @  @ud
+---
+
+(source_file
+    (bucketTall (rune) (Gap)
+        (aura) (Gap)
+        (aura)
+    )
+)
+
+==================
+bucket_wide
+==================
+$^(@ @ud)
+---
+
+(source_file
+    (bucketWide (rune) (aura) (aura))
+)
+
+==================
+buclus_tall
+==================
+$+  stud  @ud
+---
+
+(source_file
+    (buclusTall (rune) (rune) (Gap)
+        (name) (Gap)
+        (aura)
+    )
+)
+
+==================
+buclus_wide
+==================
+$+(stud @ud)
+---
+
+(source_file
+    (buclusWide (rune) (rune) (name) (aura))
+)
+
+==================
+bucpam_tall
+==================
+$&  @  a
+---
+
+(source_file
+    (bucpamTall (rune) (Gap)
+        (aura) (Gap)
+        (name)
+    )
+)
+
+==================
+bucpam_wide
+==================
+$&(@ a)
+---
+
+(source_file
+    (bucpamWide (rune) (aura) (name))
+)
+
+==================
+bucsig_tall
+==================
+$~  a  @ud
+---
+
+(source_file
+    (bucsigTall (rune) (Gap)
+        (name) (Gap)
+        (aura)
+    )
+)
+
+==================
+bucsig_wide
+==================
+$~(a @ud)
+---
+
+(source_file
+    (bucsigWide (rune) (name) (aura))
+)
+
+==================
+bucpat_tall
+==================
+$@  @  @ud
+---
+
+(source_file
+    (bucpatTall (rune) (Gap)
+        (aura) (Gap)
+        (aura)
+    )
+)
+
+==================
+bucpat_wide
+==================
+$@(@ @ud)
+---
+
+(source_file
+    (bucpatWide (rune) (aura) (aura))
+)
+
+==================
+buctis_tall
+==================
+$=  skin  @ud
+---
+
+(source_file
+    (buctisTall (rune) (Gap)
+        (name) (Gap)
+        (aura)
+    )
+)
+
+==================
+buctis_wide
+==================
+$=(skin @ud)
+---
+
+(source_file
+    (buctisWide (rune) (name) (aura))
+)
+
+==================
+bucwut_tall
+==================
+$?  @ud
+    @p
+==
+---
+
+(source_file
+    (bucwutTall (rune) (Gap) (aura) (Gap) (aura) (Gap))
+)
+
+==================
+bucwut_wide
+==================
+$?(@ud @p)
+---
+
+(source_file
+    (bucwutWide (rune) (aura) (aura))
+)

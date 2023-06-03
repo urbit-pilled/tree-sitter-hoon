@@ -1,0 +1,235 @@
+==================
+barbuc_tall
+==================
+|$  [term]  @
+|$  term  @
+---
+
+(source_file
+    (barbucTall (rune) (Gap) (name) (Gap) (aura)) (Gap)
+    (barbucTall (rune) (Gap) (name) (Gap) (aura))
+)
+
+==================
+barbuc_wide
+==================
+|$([term term] @)
+|$(term @)
+---
+
+(source_file
+    (barbucWide (rune) (name) (name) (aura)) (Gap)
+    (barbucWide (rune) (name) (aura))
+)
+
+==================
+barcab_tall
+==================
+|_  @
+++  term  a
+++  term  b
+++  term  c
+--
+---
+
+(source_file
+    (barcabTall (rune) (Gap) (aura) (Gap)
+    (luslusTall (rune) (Gap) (name) (Gap) (name)) (Gap)
+    (luslusTall (rune) (Gap) (name) (Gap) (name)) (Gap)
+    (luslusTall (rune) (Gap) (name) (Gap) (name)) (Gap)
+    )
+)
+
+==================
+barcol_tall
+==================
+|:  a  b
+---
+
+(source_file
+    (barcolTall (rune) (Gap) (name) (Gap) (name))
+)
+
+==================
+barcol_wide
+==================
+|:(a b)
+---
+
+(source_file
+    (barcolWide (rune) (name) (name))
+)
+
+==================
+barcen_tall
+==================
+|%
+++  term  a
+++  term  b
+++  term  c
+--
+---
+
+(source_file
+    (barcenTall (rune) (Gap)
+    (luslusTall (rune) (Gap) (name) (Gap) (name)) (Gap)
+    (luslusTall (rune) (Gap) (name) (Gap) (name)) (Gap)
+    (luslusTall (rune) (Gap) (name) (Gap) (name)) (Gap)
+    )
+)
+
+==================
+bardot_tall
+==================
+|.  a
+---
+
+(source_file
+    (bardotTall (rune) (Gap) (name))
+)
+
+==================
+bardot_wide
+==================
+|.(a)
+---
+
+(source_file
+    (bardotWide (rune) (name))
+)
+
+==================
+barket_tall
+==================
+|^  a
+++  term  a
+++  term  b
+++  term  c
+--
+---
+
+(source_file
+    (barketTall (rune) (Gap) (name) (Gap)
+    (luslusTall (rune) (Gap) (name) (Gap) (name)) (Gap)
+    (luslusTall (rune) (Gap) (name) (Gap) (name)) (Gap)
+    (luslusTall (rune) (Gap) (name) (Gap) (name)) (Gap)
+    )
+)
+
+==================
+barhep_tall
+==================
+|-  a
+---
+
+(source_file
+    (barhepTall (rune) (Gap) (name))
+)
+
+==================
+barhep_wide
+==================
+|-(a)
+---
+
+(source_file
+    (barhepWide (rune) (name))
+)
+
+==================
+barsig_tall
+==================
+|~  @  b
+---
+
+(source_file
+    (barsigTall (rune) (Gap) (aura) (Gap) (name))
+)
+
+==================
+barsig_wide
+==================
+|~(@ b)
+---
+
+(source_file
+    (barsigWide (rune) (aura) (name))
+)
+
+==================
+bartar_tall
+==================
+|*  @  b
+---
+
+(source_file
+    (bartarTall (rune) (Gap) (aura) (Gap) (name))
+)
+
+==================
+bartar_wide
+==================
+|*(@ b)
+---
+
+(source_file
+    (bartarWide (rune) (aura) (name))
+)
+
+==================
+bartis_tall
+==================
+|=  @  b
+---
+
+(source_file
+    (bartisTall (rune) (Gap) (aura) (Gap) (name))
+)
+
+==================
+bartis_wide
+==================
+|=(@ b)
+---
+
+(source_file
+    (bartisWide (rune) (aura) (name))
+)
+
+==================
+barpat_tall
+==================
+|@
+++  term  a
+++  term  b
+++  term  c
+--
+---
+
+(source_file
+    (barpatTall (rune) (Gap)
+    (luslusTall (rune) (Gap) (name) (Gap) (name)) (Gap)
+    (luslusTall (rune) (Gap) (name) (Gap) (name)) (Gap)
+    (luslusTall (rune) (Gap) (name) (Gap) (name)) (Gap)
+    )
+)
+
+==================
+barwut_tall
+==================
+|?  a
+---
+
+(source_file
+    (barwutTall (rune) (Gap) (name))
+)
+
+==================
+barwut_wide
+==================
+|?(a)
+---
+
+(source_file
+    (barwutWide (rune) (name))
+)

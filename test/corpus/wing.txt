@@ -1,0 +1,31 @@
+==================
+basic wing
+==================
+a
+a.b
+a.b.c
+a.b.c.d
+---
+
+(source_file
+    (name) (Gap)
+    (wingPath (name) (name)) (Gap)
+    (wingPath (name) (name) (name)) (Gap)
+    (wingPath (name) (name) (name) (name))
+)
+
+==================
+complex wing
+==================
+$.b
++23.c
+d.+>-
+..wing
+---
+
+(source_file
+    (wingPath (name) (name)) (Gap)
+    (wingPath (specialIndex) (name)) (Gap)
+    (wingPath (name) (lark)) (Gap)
+    (wingPath (fullContext) (name))
+)

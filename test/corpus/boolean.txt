@@ -1,0 +1,40 @@
+==================
+boolean_basic
+==================
+&
+|
+---
+
+(source_file
+    (boolean) (Gap)
+    (boolean)
+)
+
+==================
+boolean_alias
+==================
+.y
+.n
+---
+
+(source_file
+    (boolean) (Gap)
+    (boolean)
+)
+
+==================
+boolean_term
+==================
+%|
+%&
+%.y
+%.n
+---
+
+(source_file
+    (term (boolean)) (Gap)
+    (term (boolean)) (Gap)
+    (term (boolean)) (Gap)
+    (term (boolean))
+)
+

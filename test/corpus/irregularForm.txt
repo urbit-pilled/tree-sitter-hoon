@@ -1,0 +1,285 @@
+==================
+irregular tank
+==================
+>tape<
+>=(1 2)<
+---
+
+(source_file
+    (tank (name)) (Gap)
+    (tank 
+        (equality
+            (number)
+            (number)
+        )
+    )
+)
+
+==================
+irregular tankTape
+==================
+<tankTape>
+<=(1 2)>
+---
+
+(source_file
+    (tankTape (name)) (Gap)
+    (tankTape 
+        (equality
+            (number)
+            (number)
+        )
+    )
+)
+
+==================
+irregular nullList
+==================
+`12
+`abc
+---
+
+(source_file
+    (nullList (number)) (Gap)
+    (nullList (name))
+)
+
+==================
+irregular addCell
+==================
+a+23
+a/23
+---
+
+(source_file
+    (addCell (name) (number)) (Gap)
+    (addCell (name) (number))
+)
+
+==================
+irregular logical AND
+==================
+&(1 2)
+&(a b)
+---
+
+(source_file
+    (logicalAnd (number) (number)) (Gap)
+    (logicalAnd (name) (name))
+)
+
+==================
+irregular logical OR
+==================
+|(1 2)
+|(a b)
+---
+
+(source_file
+    (logicalOr (number) (number)) (Gap)
+    (logicalOr (name) (name))
+)
+
+==================
+irregular logical NOT
+==================
+!1
+!a
+---
+
+(source_file
+    (logicalNot (number)) (Gap)
+    (logicalNot (name))
+)
+
+==================
+irregular compose expressions
+==================
+a:b
+a:[1 3]:2
+---
+
+(source_file
+    (composeExpressions (name) (name)) (Gap)
+    (composeExpressions 
+        (name)
+        (composeExpressions
+            (cell (number) (number))
+            (number)
+        )
+    )
+)
+
+==================
+irregular two args to N
+==================
+:(1 2 3)
+:(a b c)
+---
+
+(source_file
+    (twoArgstoN (number) (number) (number)) (Gap)
+    (twoArgstoN (name) (name) (name))
+)
+
+==================
+irregular append cell
+==================
+a^b^2
+!a^b
+---
+
+(source_file
+    (appendCell (name) (appendCell (name) (number))) (Gap)
+    (logicalNot (appendCell (name) (name)))
+)
+
+==================
+irregular factory gate
+==================
+,a
+,@ud
+---
+
+(source_file
+    (factoryGate (name)) (Gap)
+    (factoryGate (aura))
+)
+
+==================
+irregular bunt
+==================
+*a
+*@ud
+---
+
+(source_file
+    (bunt (name)) (Gap)
+    (bunt (aura))
+)
+
+==================
+irregular typeCast
+==================
+`@ud`abc
+`(list @p)`name
+---
+
+(source_file
+    (typeCast (aura) (name)) (Gap)
+    (typeCast (gateCall (name) (aura)) (name))
+)
+
+==================
+irregular equality
+==================
+=(1 2)
+=(a b)
+---
+
+(source_file
+    (equality (number) (number)) (Gap)
+    (equality (name) (name))
+)
+
+==================
+irregular increment
+==================
++(23)
++(b)
+---
+
+(source_file
+    (increment (number)) (Gap)
+    (increment (name))
+)
+
+==================
+irregular cell
+==================
+[1 2]
+~[1 2 3]
+[a b c]~
+---
+
+(source_file
+    (cell (number) (number)) (Gap)
+    (cell (number) (number) (number)) (Gap)
+    (cell (name) (name) (name)) 
+)
+
+==================
+irregular resolve wing with changes
+==================
+$(b 1, a 2)
+.(a 2)
+---
+
+(source_file
+    (resolveWingWithChanges (name) (name) (number) (name) (number)) (Gap)
+    (resolveWingWithChanges (fullContext) (name) (number))
+)
+
+==================
+irregular pull arm in door
+==================
+~($ a 1 2)
+~(. a b c d e f)
+---
+
+(source_file
+    (pullArmInDoor (name) (name) (number) (number)) (Gap)
+    (pullArmInDoor (fullContext) (name) (name) (name) (name) (name) (name))
+)
+
+==================
+irregular gate call
+==================
+(list @ud)
+(@ud)
+(add 1 2)
+---
+
+(source_file
+    (gateCall (name) (aura)) (Gap)
+    (gateCall (aura)) (Gap)
+    (gateCall (name) (number) (number))
+)
+
+==================
+irregular type union
+==================
+?(@ud @p)
+?(a b c)
+---
+
+(source_file
+    (typeUnion (aura) (aura)) (Gap)
+    (typeUnion (name) (name) (name))
+)
+
+==================
+irregular wrap face
+==================
+a=12
+a=b
+=a
+---
+
+(source_file
+    (wrapFace (name) (number)) (Gap)
+    (wrapFace (name) (name)) (Gap)
+    (wrapFace2 (name))
+)
+
+==================
+irregular normalize
+==================
+_a
+_1
+---
+
+(source_file
+    (normalize (name)) (Gap)
+    (normalize (number))
+)

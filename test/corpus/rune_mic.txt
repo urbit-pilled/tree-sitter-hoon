@@ -1,0 +1,177 @@
+==================
+miccol_tall
+==================
+;:  a  b  ==
+;:  a
+    b
+    c
+==
+---
+
+(source_file
+    (miccolTall (rune) (Gap) (name) (Gap) (name) (Gap)) (Gap)
+    (miccolTall (rune) (Gap) (name) (Gap) (name) (Gap) (name) (Gap))
+)
+
+==================
+miccol_wide
+==================
+;:(a b)
+;:(a b c)
+---
+
+(source_file
+    (miccolWide (rune) (name) (name)) (Gap)
+    (miccolWide (rune) (name) (name) (name))
+)
+
+==================
+micgal_tall
+==================
+;<  @  a  b  c
+---
+
+(source_file
+    (micgalTall (rune) (Gap) (aura) (Gap) (name) (Gap) (name) (Gap) (name))
+)
+
+==================
+micgal_wide
+==================
+;<(@ a b c)
+---
+
+(source_file
+    (micgalWide (rune) (aura) (name) (name) (name))
+)
+
+==================
+miclus_tall
+==================
+;+  a
+---
+
+(source_file
+    (miclusTall (rune) (Gap) (name))
+)
+
+==================
+miclus_wide
+==================
+;+(a)
+---
+
+(source_file
+    (miclusWide (rune) (name))
+)
+
+
+==================
+micmic_tall
+==================
+;;  @  a
+---
+
+(source_file
+    (micmicTall (rune) (Gap) (aura) (Gap) (name))
+)
+
+==================
+micmic_wide
+==================
+;;(@ a)
+---
+
+(source_file
+    (micmicWide (rune) (aura) (name))
+)
+
+
+==================
+micfas_tall
+==================
+;/  a
+---
+
+(source_file
+    (micfasTall (rune) (Gap) (name))
+)
+
+==================
+micfas_wide
+==================
+;/(a)
+---
+
+(source_file
+    (micfasWide (rune) (name))
+)
+
+
+==================
+micsig_tall
+==================
+;~  a
+    b
+    c
+    d
+==
+---
+
+(source_file
+    (micsigTall (rune) (Gap) (name) (Gap) (name) (Gap) (name) (Gap) (name) (Gap))
+)
+
+==================
+micsig_wide
+==================
+;~(a b c d)
+---
+
+(source_file
+    (micsigWide (rune) (name) (name) (name) (name))
+)
+
+==================
+mictar_tall
+==================
+;*  a
+---
+
+(source_file
+    (mictarTall (rune) (Gap) (name))
+)
+
+==================
+mictar_wide
+==================
+;*(a)
+---
+
+(source_file
+    (mictarWide (rune) (name))
+)
+
+==================
+mictis_tall
+==================
+;=  a
+    b
+    c
+    d
+==
+---
+
+(source_file
+    (mictisTall (rune) (Gap) (name) (Gap) (name) (Gap) (name) (Gap) (name) (Gap))
+)
+
+==================
+mictis_wide
+==================
+;=(a b c d)
+---
+
+(source_file
+    (mictisWide (rune) (name) (name) (name) (name))
+)

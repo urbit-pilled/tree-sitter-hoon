@@ -1,0 +1,179 @@
+==================
+ketbar_tall
+==================
+^|  a
+---
+
+(source_file
+    (ketbarTall (rune) (Gap) (name))
+)
+
+==================
+ketbar_wide
+==================
+^|(a)
+---
+
+(source_file
+    (ketbarWide (rune) (name))
+)
+
+==================
+ketcol_tall
+==================
+^:  @
+---
+
+(source_file
+    (ketcolTall (rune) (Gap) (aura))
+)
+
+==================
+ketcol_wide
+==================
+^:(@)
+---
+
+(source_file
+    (ketcolWide (rune) (aura))
+)
+
+==================
+ketdot_tall
+==================
+^.  a  b
+---
+
+(source_file
+    (ketdotTall (rune) (Gap) (name) (Gap) (name))
+)
+
+==================
+ketdot_wide
+==================
+^.(a b)
+---
+
+(source_file
+    (ketdotWide (rune) (name) (name))
+)
+
+==================
+kethep_tall
+==================
+^-  @  b
+---
+
+(source_file
+    (kethepTall (rune) (Gap) (aura) (Gap) (name))
+)
+
+==================
+kethep_wide
+==================
+^-(@ b)
+---
+
+(source_file
+    (kethepWide (rune) (aura) (name))
+)
+
+==================
+ketlus_tall
+==================
+^+  a  b
+---
+
+(source_file
+    (ketlusTall (rune) (Gap) (name) (Gap) (name))
+)
+
+==================
+ketlus_wide
+==================
+^+(a b)
+---
+
+(source_file
+    (ketlusWide (rune) (name) (name))
+)
+
+==================
+ketpam_tall
+==================
+^&  a
+---
+
+(source_file
+    (ketpamTall (rune) (Gap) (name))
+)
+
+==================
+ketpam_wide
+==================
+^&(a)
+---
+
+(source_file
+    (ketpamWide (rune) (name))
+)
+
+==================
+ketsig_tall
+==================
+^~  a
+---
+
+(source_file
+    (ketsigTall (rune) (Gap) (name))
+)
+
+==================
+ketsig_wide
+==================
+^~(a)
+---
+
+(source_file
+    (ketsigWide (rune) (name))
+)
+
+==================
+kettis_tall
+==================
+^=  skin  a
+---
+
+(source_file
+    (kettisTall (rune) (Gap) (name) (Gap) (name))
+)
+
+==================
+kettis_wide
+==================
+^=(skin a)
+---
+
+(source_file
+    (kettisWide (rune) (name) (name))
+)
+
+==================
+ketwut_tall
+==================
+^?  a
+---
+
+(source_file
+    (ketwutTall (rune) (Gap) (name))
+)
+
+==================
+ketwut_wide
+==================
+^?(a)
+---
+
+(source_file
+    (ketwutWide (rune) (name))
+)

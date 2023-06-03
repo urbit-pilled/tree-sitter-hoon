@@ -1,0 +1,11 @@
+==================
+knot
+==================
+~.knot
+~.knot2
+---
+
+(source_file
+    (string (knot)) (Gap)
+    (string (knot))
+)

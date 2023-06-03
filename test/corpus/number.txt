@@ -1,0 +1,114 @@
+==================
+decimal number
+==================
+123
+0
+99
+932.023.093
+---
+
+(source_file
+    (number) (Gap)
+    (number) (Gap)
+    (number) (Gap)
+    (number)
+)
+
+==================
+hexadecimal number
+==================
+0x999f
+0x1234.AaFf
+0x42
+0xeeee.eeee.ffff.aaaa.bbbb
+---
+
+(source_file
+    (number) (Gap)
+    (number) (Gap)
+    (number) (Gap)
+    (number)
+)
+
+==================
+binary number
+==================
+0b1111
+0b1010
+0b0000.1111.1011
+0b1010.1010.1010.1010.1111.0000
+---
+
+(source_file
+    (number) (Gap)
+    (number) (Gap)
+    (number) (Gap)
+    (number)
+)
+
+==================
+integer number
+==================
+0i10
+0i092302930293029302930293023023
+0i99999999999999999999999999999999
+---
+
+(source_file
+    (number) (Gap)
+    (number) (Gap)
+    (number)
+)
+
+==================
+base32 number
+==================
+0vatuvb
+0vatuv2.akljs
+0vmmmmm
+---
+
+(source_file
+    (number) (Gap)
+    (number) (Gap)
+    (number)
+)
+
+==================
+base64 number
+==================
+0wZZZab
+0w~~~~~.-----
+0wABCDE.ghIJk
+---
+
+(source_file
+    (number) (Gap)
+    (number) (Gap)
+    (number)
+)
+
+==================
+gap separated number
+==================
+0wZZZab.  23999
+0w~~~~~.  -----.
+aAAaa
+0wABCDE.            ghZZk
+0vabcde.            gh09k
+0b1010.      1011
+0xAAaa.
+FF00
+123.   999
+---
+
+(source_file
+    (number (Gap)) (Gap)
+    (number (Gap) (Gap)) (Gap)
+    (number (Gap)) (Gap)
+    (number (Gap)) (Gap)
+    (number (Gap)) (Gap)
+    (number (Gap)) (Gap)
+    (number (Gap))
+)
+

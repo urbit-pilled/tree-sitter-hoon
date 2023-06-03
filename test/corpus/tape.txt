@@ -1,0 +1,66 @@
+==================
+single line tape
+==================
+"basic tape"
+---
+
+(source_file
+    (string (tape))
+)
+
+==================
+dot combined tape
+==================
+"tape1"."tape2"
+---
+
+(source_file
+    (string (tape))
+)
+
+==================
+multi-line tape
+==================
+"""
+multi
+line
+tape
+
+hello
+"""
+---
+
+(source_file
+    (string (tape))
+)
+
+==================
+interpolated tape
+==================
+"{(scow %p our)}"
+"{?:(ok "built " "FAILED")}  {(spud path)}"
+---
+
+(source_file
+    (string (tape
+        (gateCall (name) (term (name)) (name))
+    ))
+    (Gap)
+    (string (tape
+        (wutcolWide (rune) (rune) (name) (string (tape)) (string (tape)))
+        (gateCall (name) (name))
+    ))
+)
+
+==================
+interpolated multiline tape
+==================
+"""
+{(scow %p our)}
+{<@ud>}
+"""
+---
+
+(source_file
+    (string (tape))
+)

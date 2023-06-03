@@ -1,0 +1,17 @@
+==================
+term
+==================
+%term1
+%term-2
+%tErM
+%2
+%|
+---
+
+(source_file
+    (term (name)) (Gap)
+    (term (name)) (Gap)
+    (term (name)) (Gap)
+    (term (number)) (Gap)
+    (term (boolean))
+)

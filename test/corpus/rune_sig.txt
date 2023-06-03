@@ -1,0 +1,252 @@
+==================
+siggar_tall
+==================
+~>  %term  a
+~>  %term.a  b
+---
+
+(source_file
+    (siggarTall (rune) (Gap) (term (name)) (Gap) (name)) (Gap)
+    (siggarTall (rune) (Gap) (term (name)) (name) (Gap) (name))
+)
+
+==================
+siggar_wide
+==================
+~>(%term a)
+~>(%term.a b)
+---
+
+(source_file
+    (siggarWide (rune) (term (name)) (name)) (Gap)
+    (siggarWide (rune) (term (name)) (name) (name))
+)
+
+==================
+sigbar_tall
+==================
+~|  a  b
+---
+
+(source_file
+    (sigbarTall (rune) (Gap) (name) (Gap) (name))
+)
+
+==================
+sigbar_wide
+==================
+~|(a b)
+---
+
+(source_file
+    (sigbarWide (rune) (name) (name))
+)
+
+==================
+sigbuc_tall
+==================
+~$  %term  b
+---
+
+(source_file
+    (sigbucTall (rune) (Gap) (term (name)) (Gap) (name))
+)
+
+==================
+sigbuc_wide
+==================
+~$(%term b)
+---
+
+(source_file
+    (sigbucWide (rune) (term (name)) (name))
+)
+
+==================
+sigcab_tall
+==================
+~_  a  b
+---
+
+(source_file
+    (sigcabTall (rune) (Gap) (name) (Gap) (name))
+)
+
+==================
+sigcab_wide
+==================
+~_(a b)
+---
+
+(source_file
+    (sigcabWide (rune) (name) (name))
+)
+
+==================
+sigcen_tall
+==================
+~%  %chum  0
+==
+a  1
+b  2
+c  3
+==
+d
+
+~%  %chum  0  ~  d
+---
+
+(source_file
+    (sigcenTall (rune) (Gap) (term (name)) (Gap) (number) (Gap) (Gap)
+        (name) (Gap) (number) (Gap)
+        (name) (Gap) (number) (Gap)
+        (name) (Gap) (number) (Gap)
+    (Gap)
+    (name)
+    ) (Gap)
+    (sigcenTall (rune) (Gap) (term (name)) (Gap) (number) (Gap) (Gap) (name))
+)
+
+==================
+siggal_tall
+==================
+~<  %term  a
+~<  %term.a  b
+---
+
+(source_file
+    (siggalTall (rune) (Gap) (term (name)) (Gap) (name)) (Gap)
+    (siggalTall (rune) (Gap) (term (name)) (name) (Gap) (name))
+)
+
+==================
+siggal_wide
+==================
+~<(%term a)
+~<(%term.a b)
+---
+
+(source_file
+    (siggalWide (rune) (term (name)) (name)) (Gap)
+    (siggalWide (rune) (term (name)) (name) (name))
+)
+
+==================
+siglus_tall
+==================
+~+  a
+---
+
+(source_file
+    (siglusTall (rune) (Gap) (name))
+)
+
+==================
+siglus_wide
+==================
+~+(a)
+---
+
+(source_file
+    (siglusWide (rune) (name))
+)
+
+==================
+sigfas_tall
+==================
+~/  %term  b
+---
+
+(source_file
+    (sigfasTall (rune) (Gap) (term (name)) (Gap) (name))
+)
+
+==================
+sigfas_wide
+==================
+~/(%term b)
+---
+
+(source_file
+    (sigfasWide (rune) (term (name)) (name))
+)
+
+==================
+sigpam_tall
+==================
+~&  a  b
+---
+
+(source_file
+    (sigpamTall (rune) (Gap) (name) (Gap) (name))
+)
+
+==================
+sigpam_wide
+==================
+~&(a b)
+---
+
+(source_file
+    (sigpamWide (rune) (name) (name))
+)
+
+==================
+sigtis_tall
+==================
+~=  a  b
+---
+
+(source_file
+    (sigtisTall (rune) (Gap) (name) (Gap) (name))
+)
+
+==================
+sigtis_wide
+==================
+~=(a b)
+---
+
+(source_file
+    (sigtisWide (rune) (name) (name))
+)
+
+==================
+sigwut_tall
+==================
+~?  a  b  c
+---
+
+(source_file
+    (sigwutTall (rune) (Gap) (name) (Gap) (name) (Gap) (name))
+)
+
+==================
+sigwut_wide
+==================
+~?(a b c)
+---
+
+(source_file
+    (sigwutWide (rune) (name) (name) (name))
+)
+
+==================
+sigzap_tall
+==================
+~!  a  b
+---
+
+(source_file
+    (sigzapTall (rune) (Gap) (name) (Gap) (name))
+)
+
+==================
+sigzap_wide
+==================
+~!(a b)
+---
+
+(source_file
+    (sigzapWide (rune) (name) (name))
+)

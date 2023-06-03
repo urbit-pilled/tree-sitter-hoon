@@ -1,0 +1,235 @@
+==================
+cencab_tall
+==================
+%_  $
+    $   a
+    +   b
+    -   c
+==
+---
+
+(source_file
+    (cencabTall (rune) (Gap)
+        (name) (Gap)
+        (name) (Gap)
+        (name) (Gap)
+        (lark) (Gap)
+        (name) (Gap)
+        (lark) (Gap)
+        (name) (Gap)
+    )
+)
+
+==================
+cencab_wide
+==================
+%_($ $ a, + b, - c)
+---
+
+(source_file
+    (cencabWide (rune) (name) (name) (name) (lark) (name) (lark) (name))
+)
+
+==================
+cencol_tall
+==================
+%:  0
+    a
+    b
+    c
+    d
+==
+---
+
+(source_file
+    (cencolTall (rune) (Gap)
+        (number) (Gap)
+        (name) (Gap)
+        (name) (Gap)
+        (name) (Gap)
+        (name) (Gap)
+    )
+)
+
+==================
+cencol_wide
+==================
+%:(0 a b c d)
+---
+
+(source_file
+    (cencolWide (rune) (number) (name) (name) (name) (name))
+)
+
+==================
+cendot_tall
+==================
+%.  a  b
+---
+
+(source_file
+    (cendotTall (rune) (rune) (Gap) (name) (Gap) (name))
+)
+
+==================
+cendot_wide
+==================
+%.(a b)
+---
+
+(source_file
+    (cendotWide (rune) (rune) (name) (name))
+)
+
+==================
+cenhep_tall
+==================
+%-  a  b
+---
+
+(source_file
+    (cenhepTall (rune) (Gap) (name) (Gap) (name))
+)
+
+==================
+cenhep_wide
+==================
+%-(a b)
+---
+
+(source_file
+    (cenhepWide (rune) (name) (name))
+)
+
+==================
+cenket_tall
+==================
+%^  a  b  c  d
+---
+
+(source_file
+    (cenketTall (rune) (Gap)
+        (name) (Gap)
+        (name) (Gap)
+        (name) (Gap)
+        (name)
+    )
+)
+
+==================
+cenket_wide
+==================
+%^(a b c d)
+---
+
+(source_file
+    (cenketWide (rune) (name) (name) (name) (name))
+)
+
+==================
+cenlus_tall
+==================
+%+  a  b  c
+---
+
+(source_file
+    (cenlusTall (rune) (Gap)
+        (name) (Gap)
+        (name) (Gap)
+        (name)
+    )
+)
+
+==================
+cenlus_wide
+==================
+%+(a b c)
+---
+
+(source_file
+    (cenlusWide (rune) (name) (name) (name))
+)
+
+==================
+censig_tall
+==================
+%~  $  b  c
+---
+
+(source_file
+    (censigTall (rune) (rune) (Gap)
+        (name) (Gap) 
+        (name) (Gap) 
+        (name)
+    )
+)
+
+==================
+censig_wide
+==================
+%~($ b c)
+---
+
+(source_file
+    (censigWide (rune) (rune) (name) (name) (name))
+)
+
+
+==================
+centar_tall
+==================
+%*  $  a
+    +  b
+    -  c
+==
+---
+
+(source_file
+    (centarTall (rune) (Gap)
+        (name) (Gap)
+        (name) (Gap)
+        (lark) (Gap)
+        (name) (Gap)
+        (lark) (Gap)
+        (name) (Gap)
+    )
+)
+
+==================
+centar_wide
+==================
+%*($ a + b, - c)
+---
+
+(source_file
+    (centarWide (rune) (name) (name) (lark) (name) (lark) (name))
+)
+
+==================
+centis_tall
+==================
+%=  $
+    +  b
+    -  c
+==
+---
+
+(source_file
+    (centisTall (rune) (Gap)
+        (name) (Gap)
+        (lark) (Gap)
+        (name) (Gap)
+        (lark) (Gap)
+        (name) (Gap)
+    )
+)
+
+==================
+centis_wide
+==================
+%=($ + b, - c)
+---
+
+(source_file
+    (centisWide (rune) (name) (lark) (name) (lark) (name))
+)

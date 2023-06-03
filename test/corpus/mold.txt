@@ -1,0 +1,15 @@
+==================
+basic mold
+==================
+?
+^
+~
+*
+---
+
+(source_file
+    (mold) (Gap)
+    (mold) (Gap)
+    (mold) (Gap)
+    (mold)
+)

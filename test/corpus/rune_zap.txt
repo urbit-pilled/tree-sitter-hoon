@@ -1,0 +1,225 @@
+==================
+zapcom_wide
+==================
+!,(a b)
+!,(1 a)
+---
+
+(source_file
+    (zapcomWide (rune) (name) (name)) (Gap)
+    (zapcomWide (rune) (number) (name))
+)
+
+==================
+zapcom_tall
+==================
+!,  a  b
+!,  1  a
+---
+
+(source_file
+    (zapcomTall (rune) (Gap) (name) (Gap) (name)) (Gap)
+    (zapcomTall (rune) (Gap) (number) (Gap) (name))
+)
+
+==================
+zapgar_wide
+==================
+!>(a)
+!>(1)
+---
+
+(source_file
+    (zapgarWide (rune) (name)) (Gap)
+    (zapgarWide (rune) (number))
+)
+
+==================
+zapgar_tall
+==================
+!>  a
+!>  1
+---
+
+(source_file
+    (zapgarTall (rune) (Gap) (name)) (Gap)
+    (zapgarTall (rune) (Gap) (number))
+)
+
+==================
+zapgal_wide
+==================
+!<(@ a)
+!<(@ 1)
+---
+
+(source_file
+    (zapgalWide (rune) (aura) (name)) (Gap)
+    (zapgalWide (rune) (aura) (number))
+)
+
+==================
+zapgal_tall
+==================
+!<  @  a
+!<  @  1
+---
+
+(source_file
+    (zapgalTall (rune) (Gap) (aura) (Gap) (name)) (Gap)
+    (zapgalTall (rune) (Gap) (aura) (Gap) (number))
+)
+
+==================
+zapmic_wide
+==================
+!;(a b)
+!;(1 2)
+---
+
+(source_file
+    (zapmicWide (rune) (name) (name)) (Gap)
+    (zapmicWide (rune) (number) (number))
+)
+
+==================
+zapmic_tall
+==================
+!;  a  b
+!;  1  2
+---
+
+(source_file
+    (zapmicTall (rune) (Gap) (name) (Gap) (name)) (Gap)
+    (zapmicTall (rune) (Gap) (number) (Gap) (number))
+)
+
+==================
+zaptis_wide
+==================
+!=(a)
+!=(1)
+---
+
+(source_file
+    (zaptisWide (rune) (rune) (name)) (Gap)
+    (zaptisWide (rune) (rune) (number))
+)
+
+==================
+zaptis_tall
+==================
+!=  a
+!=  1
+---
+
+(source_file
+    (zaptisTall (rune) (rune) (Gap) (name)) (Gap)
+    (zaptisTall (rune) (rune) (Gap) (number))
+)
+
+==================
+zapwut_wide
+==================
+!?(12 a)
+!?([1 2] a)
+---
+
+(source_file
+    (zapwutWide (rune) (rune) (number) (name)) (Gap)
+    (zapwutWide (rune) (rune) (number) (number) (name))
+)
+
+==================
+zapwut_tall
+==================
+!?  12  a
+!?  [1 12]  a
+---
+
+(source_file
+    (zapwutTall (rune) (rune) (Gap) (number) (Gap) (name)) (Gap)
+    (zapwutTall (rune) (rune) (Gap) (number) (number) (Gap) (name))
+)
+
+==================
+zappat_wide
+==================
+!@($ a b)
+!@($ 1 2)
+---
+
+(source_file
+    (zappatWide (rune) (name) (name) (name)) (Gap)
+    (zappatWide (rune) (name) (number) (number))
+)
+
+==================
+zappat_tall
+==================
+!@  $  a  b
+!@  $  1  2
+---
+
+(source_file
+    (zappatTall (rune) (Gap) (name) (Gap) (name) (Gap) (name)) (Gap)
+    (zappatTall (rune) (Gap) (name) (Gap) (number) (Gap) (number))
+)
+
+==================
+zapcol_wide
+==================
+!:(a)
+!:(1)
+---
+
+(source_file
+    (zapcolWide (rune) (name)) (Gap)
+    (zapcolWide (rune) (number))
+)
+
+==================
+zapcol_tall
+==================
+!:  a
+!:  1
+---
+
+(source_file
+    (zapcolTall (rune) (Gap) (name)) (Gap)
+    (zapcolTall (rune) (Gap) (number))
+)
+
+==================
+zapdot_wide
+==================
+!.(a)
+!.(1)
+---
+
+(source_file
+    (zapdotWide (rune) (name)) (Gap)
+    (zapdotWide (rune) (number))
+)
+
+==================
+zapdot_tall
+==================
+!.  a
+!.  1
+---
+
+(source_file
+    (zapdotTall (rune) (Gap) (name)) (Gap)
+    (zapdotTall (rune) (Gap) (number))
+)
+
+==================
+zapzap
+==================
+!!
+---
+
+(source_file
+    (zapzap (rune))
+)

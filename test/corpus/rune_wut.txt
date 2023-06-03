@@ -1,0 +1,296 @@
+==================
+wutbar_tall
+==================
+?|  a  ==
+?|  a  b  c  1  2  3  ==
+---
+
+(source_file
+    (wutbarTall (rune) (Gap) (name) (Gap)) (Gap)
+    (wutbarTall (rune) (Gap)
+        (name) (Gap)
+        (name) (Gap)
+        (name) (Gap)
+        (number) (Gap)
+        (number) (Gap)
+        (number) (Gap)
+    )
+)
+
+==================
+wutbar_wide
+==================
+?|(a)
+?|(a b c 1 2 3)
+---
+
+(source_file
+    (wutbarWide (rune) (name)) (Gap)
+    (wutbarWide (rune) (name) (name) (name) (number) (number) (number))
+)
+
+==================
+wuthep_tall
+==================
+?-  $
+    a  1
+    b  2
+    c  3
+==
+?-  $  a  1  b  2  c  3  ==
+---
+
+(source_file
+    (wuthepTall (rune) (Gap) (name) (Gap) (name) (Gap) (number) (Gap) (name) (Gap) (number) (Gap) (name) (Gap) (number) (Gap)) (Gap)
+    (wuthepTall (rune) (Gap) (name) (Gap) (name) (Gap) (number) (Gap) (name) (Gap) (number) (Gap) (name) (Gap) (number) (Gap))
+)
+
+==================
+wuthep_wide
+==================
+?-($ a 1)
+?-($ a 1, b 2, c 3)
+---
+
+(source_file
+    (wuthepWide (rune) (name) (name) (number)) (Gap)
+    (wuthepWide (rune) (name) (name) (number) (name) (number) (name) (number))
+)
+
+==================
+wutcol_tall
+==================
+?:  a  b  1
+---
+
+(source_file
+    (wutcolTall (rune) (rune) (Gap) (name) (Gap) (name) (Gap) (number))
+)
+
+==================
+wutcol_wide
+==================
+?:(a b 1)
+---
+
+(source_file
+    (wutcolWide (rune) (rune) (name) (name) (number))
+)
+
+==================
+wutdot_tall
+==================
+?.  a  b  1
+---
+
+(source_file
+    (wutdotTall (rune) (Gap) (name) (Gap) (name) (Gap) (number))
+)
+
+==================
+wutdot_wide
+==================
+?.(a b 1)
+---
+
+(source_file
+    (wutdotWide (rune) (name) (name) (number))
+)
+
+==================
+wutket_tall
+==================
+?^  $  b  1
+---
+
+(source_file
+    (wutketTall (rune) (Gap) (name) (Gap) (name) (Gap) (number))
+)
+
+==================
+wutket_wide
+==================
+?^($ b 1)
+---
+
+(source_file
+    (wutketWide (rune) (name) (name) (number))
+)
+
+==================
+wutgal_tall
+==================
+?<  b  1
+---
+
+(source_file
+    (wutgalTall (rune) (Gap) (name) (Gap) (number))
+)
+
+==================
+wutgal_wide
+==================
+?<(b 1)
+---
+
+(source_file
+    (wutgalWide (rune) (name) (number))
+)
+
+
+==================
+wutgar_tall
+==================
+?>  b  1
+---
+
+(source_file
+    (wutgarTall (rune) (Gap) (name) (Gap) (number))
+)
+
+==================
+wutgar_wide
+==================
+?>(b 1)
+---
+
+(source_file
+    (wutgarWide (rune) (name) (number))
+)
+
+
+==================
+wutlus_tall
+==================
+?+  $  0
+    @  1
+    @  2
+    @  3
+==
+---
+
+(source_file
+    (wutlusTall (rune) (Gap)
+        (name) (Gap)
+        (number) (Gap)
+        (aura) (Gap)
+        (number) (Gap)
+        (aura) (Gap)
+        (number) (Gap)
+        (aura) (Gap)
+        (number) (Gap)
+    )
+)
+
+==================
+wutlus_wide
+==================
+?+($ 0 @ 1, @ 2, @ 3)
+---
+
+(source_file
+    (wutlusWide (rune) (name) (number) (aura) (number) (aura) (number) (aura) (number))
+)
+
+==================
+wutpam_tall
+==================
+?&  a
+    b
+    c
+==
+---
+
+(source_file
+    (wutpamTall (rune) (Gap) (name) (Gap) (name) (Gap) (name) (Gap))
+)
+
+==================
+wutpam_wide
+==================
+?&(a b c 1 2 3)
+---
+
+(source_file
+    (wutpamWide (rune) (name) (name) (name) (number) (number) (number))
+)
+
+==================
+wutpat_tall
+==================
+?@  $  b  1
+---
+
+(source_file
+    (wutpatTall (rune) (Gap) (name) (Gap) (name) (Gap) (number))
+)
+
+==================
+wutpat_wide
+==================
+?@($ b 1)
+---
+
+(source_file
+    (wutpatWide (rune) (name) (name) (number))
+)
+
+==================
+wutsig_tall
+==================
+?~  $  b  1
+---
+
+(source_file
+    (wutsigTall (rune) (Gap) (name) (Gap) (name) (Gap) (number))
+)
+
+==================
+wutsig_wide
+==================
+?~($ b 1)
+---
+
+(source_file
+    (wutsigWide (rune) (name) (name) (number))
+)
+
+==================
+wuttis_tall
+==================
+?=  @  $
+---
+
+(source_file
+    (wuttisTall (rune) (Gap) (aura) (Gap) (name))
+)
+
+==================
+wuttis_wide
+==================
+?=(@ $)
+---
+
+(source_file
+    (wuttisWide (rune) (aura) (name))
+)
+
+==================
+wutzap_tall
+==================
+?!  a
+---
+
+(source_file
+    (wutzapTall (rune) (Gap) (name))
+)
+
+==================
+wutzap_wide
+==================
+?!(a)
+---
+
+(source_file
+    (wutzapWide (rune) (name))
+)

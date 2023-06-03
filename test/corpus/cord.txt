@@ -1,0 +1,22 @@
+==================
+single line cord
+==================
+'basic cord'
+---
+
+(source_file
+    (string (cord))
+)
+
+==================
+multi-line cord
+==================
+'''
+multi
+line cord
+'''
+---
+
+(source_file
+    (string (cord))
+)
