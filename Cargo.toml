@@ -1,11 +1,11 @@
 [package]
 name = "tree-sitter-hoon"
 description = "Hoon grammar for the tree-sitter parsing library"
-version = "0.0.1"
+version = "0.0.2"
 keywords = ["incremental", "parsing", "hoon"]
 categories = ["parsing", "text-editors"]
 repository = "https://github.com/urbit-pilled/tree-sitter-hoon"
-edition = "2018"
+edition = "2023"
 license = "MIT"
 
 build = "bindings/rust/build.rs"

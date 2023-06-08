@@ -1,6 +1,6 @@
 {
   "name": "tree-sitter-hoon",
-  "version": "1.0.0",
+  "version": "0.0.2",
   "description": "Hoon parser written using the tree-sitter grammar.",
   "main": "bindings/node",
   "scripts": {
