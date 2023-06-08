@@ -54,6 +54,7 @@ $%  [%term @]
         (term (number)) (aura) (Gap)
         (term (number)) (aura) (Gap)
         (term (number)) (aura) (Gap)
+        (seriesTerminator)
     )
 )
 
@@ -288,7 +289,7 @@ $?  @ud
 ---
 
 (source_file
-    (bucwutTall (rune) (Gap) (aura) (Gap) (aura) (Gap))
+    (bucwutTall (rune) (Gap) (aura) (Gap) (aura) (Gap) (seriesTerminator))
 )
 
 ==================

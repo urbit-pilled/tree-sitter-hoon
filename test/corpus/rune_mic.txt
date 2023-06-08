@@ -9,8 +9,8 @@ miccol_tall
 ---
 
 (source_file
-    (miccolTall (rune) (Gap) (name) (Gap) (name) (Gap)) (Gap)
-    (miccolTall (rune) (Gap) (name) (Gap) (name) (Gap) (name) (Gap))
+    (miccolTall (rune) (Gap) (name) (Gap) (name) (Gap) (seriesTerminator)) (Gap)
+    (miccolTall (rune) (Gap) (name) (Gap) (name) (Gap) (name) (Gap) (seriesTerminator))
 )
 
 ==================
@@ -119,7 +119,7 @@ micsig_tall
 ---
 
 (source_file
-    (micsigTall (rune) (Gap) (name) (Gap) (name) (Gap) (name) (Gap) (name) (Gap))
+    (micsigTall (rune) (Gap) (name) (Gap) (name) (Gap) (name) (Gap) (name) (Gap) (seriesTerminator))
 )
 
 ==================
@@ -163,7 +163,7 @@ mictis_tall
 ---
 
 (source_file
-    (mictisTall (rune) (Gap) (name) (Gap) (name) (Gap) (name) (Gap) (name) (Gap))
+    (mictisTall (rune) (Gap) (name) (Gap) (name) (Gap) (name) (Gap) (name) (Gap) (seriesTerminator))
 )
 
 ==================

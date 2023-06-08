@@ -10,8 +10,8 @@
 ]  @punctuation.bracket
 
 [
-  "--"
-  "=="
+  (coreTerminator)
+  (seriesTerminator)
 ] @punctuation.delimiter
 
 

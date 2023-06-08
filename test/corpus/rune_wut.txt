@@ -6,7 +6,7 @@ wutbar_tall
 ---
 
 (source_file
-    (wutbarTall (rune) (Gap) (name) (Gap)) (Gap)
+    (wutbarTall (rune) (Gap) (name) (Gap) (seriesTerminator)) (Gap)
     (wutbarTall (rune) (Gap)
         (name) (Gap)
         (name) (Gap)
@@ -14,6 +14,7 @@ wutbar_tall
         (number) (Gap)
         (number) (Gap)
         (number) (Gap)
+        (seriesTerminator)
     )
 )
 
@@ -41,8 +42,8 @@ wuthep_tall
 ---
 
 (source_file
-    (wuthepTall (rune) (Gap) (name) (Gap) (name) (Gap) (number) (Gap) (name) (Gap) (number) (Gap) (name) (Gap) (number) (Gap)) (Gap)
-    (wuthepTall (rune) (Gap) (name) (Gap) (name) (Gap) (number) (Gap) (name) (Gap) (number) (Gap) (name) (Gap) (number) (Gap))
+    (wuthepTall (rune) (Gap) (name) (Gap) (name) (Gap) (number) (Gap) (name) (Gap) (number) (Gap) (name) (Gap) (number) (Gap) (seriesTerminator)) (Gap)
+    (wuthepTall (rune) (Gap) (name) (Gap) (name) (Gap) (number) (Gap) (name) (Gap) (number) (Gap) (name) (Gap) (number) (Gap) (seriesTerminator))
 )
 
 ==================
@@ -179,6 +180,7 @@ wutlus_tall
         (number) (Gap)
         (aura) (Gap)
         (number) (Gap)
+        (seriesTerminator)
     )
 )
 
@@ -202,7 +204,7 @@ wutpam_tall
 ---
 
 (source_file
-    (wutpamTall (rune) (Gap) (name) (Gap) (name) (Gap) (name) (Gap))
+    (wutpamTall (rune) (Gap) (name) (Gap) (name) (Gap) (name) (Gap) (seriesTerminator))
 )
 
 ==================

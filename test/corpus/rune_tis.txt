@@ -51,7 +51,8 @@ tiscol_tall
     (tiscolTall (rune) (Gap) (name) (Gap) 
     (name) (Gap)
     (wingPath (name) (name)) (Gap)
-    (name) (Gap) (Gap)
+    (name) (Gap) (seriesTerminator)
+    (Gap)
     (number)
     )
 )
@@ -240,6 +241,7 @@ c
         (number) (Gap)
         (number) (Gap)
         (number) (Gap)
+        (seriesTerminator)
     )
 )
 

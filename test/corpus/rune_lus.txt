@@ -8,7 +8,7 @@ lusbar_tall
 
 (source_file
     (barcabTall (rune) (Gap) (aura) (Gap)
-        (lusbarTall (rune) (Gap) (term (name))) (Gap)
+        (lusbarTall (rune) (Gap) (term (name))) (Gap) (coreTerminator)
     )
 )
 
@@ -22,7 +22,7 @@ lusbuc_tall
 
 (source_file
     (barcabTall (rune) (Gap) (aura) (Gap)
-        (lusbucTall (rune) (Gap) (name) (Gap) (aura)) (Gap)
+        (lusbucTall (rune) (Gap) (name) (Gap) (aura)) (Gap) (coreTerminator)
     )
 )
 
@@ -36,7 +36,7 @@ luslus_tall
 
 (source_file
     (barcabTall (rune) (Gap) (aura) (Gap)
-        (luslusTall (rune) (Gap) (name) (Gap) (name)) (Gap)
+        (luslusTall (rune) (Gap) (name) (Gap) (name)) (Gap) (coreTerminator)
     )
 )
 
@@ -61,7 +61,7 @@ lustar_tall
             (name) (Gap) (name) (Gap)
             (name) (Gap) (name) (Gap)
             (name) (Gap) (name)
-        ) (Gap)
+        ) (Gap) (coreTerminator)
     ) (Gap)
     (barcabTall (rune) (Gap) (aura) (Gap)
         (lustarTall (rune) (Gap)
@@ -72,6 +72,6 @@ lustar_tall
         ) (Gap)
         (luslusTall (rune) (Gap)
             (name) (Gap) (gateCall (name) (name) (name))
-        ) (Gap)
+        ) (Gap) (coreTerminator)
     )
 )

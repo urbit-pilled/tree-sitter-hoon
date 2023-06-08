@@ -1417,6 +1417,10 @@
         {
           "type": "typeUnion",
           "named": true
+        },
+        {
+          "type": "wrapFace",
+          "named": true
         }
       ]
     }
@@ -1543,6 +1547,10 @@
         },
         {
           "type": "typeUnion",
+          "named": true
+        },
+        {
+          "type": "wrapFace",
           "named": true
         }
       ]
@@ -1697,6 +1705,10 @@
           "named": true
         },
         {
+          "type": "coreTerminator",
+          "named": true
+        },
+        {
           "type": "factoryGate",
           "named": true
         },
@@ -1755,6 +1767,10 @@
         {
           "type": "typeUnion",
           "named": true
+        },
+        {
+          "type": "wrapFace",
+          "named": true
         }
       ]
     }
@@ -1769,6 +1785,10 @@
       "types": [
         {
           "type": "Gap",
+          "named": true
+        },
+        {
+          "type": "coreTerminator",
           "named": true
         },
         {
@@ -7289,6 +7309,10 @@
           "named": true
         },
         {
+          "type": "coreTerminator",
+          "named": true
+        },
+        {
           "type": "date",
           "named": true
         },
@@ -8053,6 +8077,10 @@
       "types": [
         {
           "type": "Gap",
+          "named": true
+        },
+        {
+          "type": "coreTerminator",
           "named": true
         },
         {
@@ -18549,6 +18577,10 @@
           "named": true
         },
         {
+          "type": "seriesTerminator",
+          "named": true
+        },
+        {
           "type": "stripFace",
           "named": true
         },
@@ -18558,6 +18590,10 @@
         },
         {
           "type": "typeUnion",
+          "named": true
+        },
+        {
+          "type": "wrapFace",
           "named": true
         }
       ]
@@ -18685,6 +18721,10 @@
         },
         {
           "type": "typeUnion",
+          "named": true
+        },
+        {
+          "type": "wrapFace",
           "named": true
         }
       ]
@@ -18871,6 +18911,10 @@
           "named": true
         },
         {
+          "type": "seriesTerminator",
+          "named": true
+        },
+        {
           "type": "stripFace",
           "named": true
         },
@@ -18880,6 +18924,10 @@
         },
         {
           "type": "typeUnion",
+          "named": true
+        },
+        {
+          "type": "wrapFace",
           "named": true
         }
       ]
@@ -19007,6 +19055,10 @@
         },
         {
           "type": "typeUnion",
+          "named": true
+        },
+        {
+          "type": "wrapFace",
           "named": true
         }
       ]
@@ -19203,6 +19255,10 @@
         {
           "type": "typeUnion",
           "named": true
+        },
+        {
+          "type": "wrapFace",
+          "named": true
         }
       ]
     }
@@ -19329,6 +19385,10 @@
         },
         {
           "type": "typeUnion",
+          "named": true
+        },
+        {
+          "type": "wrapFace",
           "named": true
         }
       ]
@@ -19525,6 +19585,10 @@
         {
           "type": "typeUnion",
           "named": true
+        },
+        {
+          "type": "wrapFace",
+          "named": true
         }
       ]
     }
@@ -19651,6 +19715,10 @@
         },
         {
           "type": "typeUnion",
+          "named": true
+        },
+        {
+          "type": "wrapFace",
           "named": true
         }
       ]
@@ -19847,6 +19915,10 @@
         {
           "type": "typeUnion",
           "named": true
+        },
+        {
+          "type": "wrapFace",
+          "named": true
         }
       ]
     }
@@ -19973,6 +20045,10 @@
         },
         {
           "type": "typeUnion",
+          "named": true
+        },
+        {
+          "type": "wrapFace",
           "named": true
         }
       ]
@@ -20169,6 +20245,10 @@
         {
           "type": "typeUnion",
           "named": true
+        },
+        {
+          "type": "wrapFace",
+          "named": true
         }
       ]
     }
@@ -20295,6 +20375,10 @@
         },
         {
           "type": "typeUnion",
+          "named": true
+        },
+        {
+          "type": "wrapFace",
           "named": true
         }
       ]
@@ -20491,6 +20575,10 @@
         {
           "type": "typeUnion",
           "named": true
+        },
+        {
+          "type": "wrapFace",
+          "named": true
         }
       ]
     }
@@ -20617,6 +20705,10 @@
         },
         {
           "type": "typeUnion",
+          "named": true
+        },
+        {
+          "type": "wrapFace",
           "named": true
         }
       ]
@@ -22527,6 +22619,10 @@
         {
           "type": "typeUnion",
           "named": true
+        },
+        {
+          "type": "wrapFace",
+          "named": true
         }
       ]
     }
@@ -22653,6 +22749,10 @@
         },
         {
           "type": "typeUnion",
+          "named": true
+        },
+        {
+          "type": "wrapFace",
           "named": true
         }
       ]
@@ -24567,6 +24667,10 @@
         {
           "type": "typeUnion",
           "named": true
+        },
+        {
+          "type": "wrapFace",
+          "named": true
         }
       ]
     }
@@ -24697,6 +24801,10 @@
         },
         {
           "type": "typeUnion",
+          "named": true
+        },
+        {
+          "type": "wrapFace",
           "named": true
         }
       ]
@@ -24883,6 +24991,10 @@
           "named": true
         },
         {
+          "type": "seriesTerminator",
+          "named": true
+        },
+        {
           "type": "stripFace",
           "named": true
         },
@@ -24892,6 +25004,10 @@
         },
         {
           "type": "typeUnion",
+          "named": true
+        },
+        {
+          "type": "wrapFace",
           "named": true
         }
       ]
@@ -25020,6 +25136,10 @@
         {
           "type": "typeUnion",
           "named": true
+        },
+        {
+          "type": "wrapFace",
+          "named": true
         }
       ]
     }
@@ -25142,6 +25262,10 @@
         },
         {
           "type": "typeUnion",
+          "named": true
+        },
+        {
+          "type": "wrapFace",
           "named": true
         }
       ]
@@ -26416,6 +26540,10 @@
         },
         {
           "type": "rune",
+          "named": true
+        },
+        {
+          "type": "seriesTerminator",
           "named": true
         },
         {
@@ -28130,6 +28258,10 @@
         },
         {
           "type": "rune",
+          "named": true
+        },
+        {
+          "type": "seriesTerminator",
           "named": true
         },
         {
@@ -38417,6 +38549,10 @@
           "named": true
         },
         {
+          "type": "seriesTerminator",
+          "named": true
+        },
+        {
           "type": "sigbarTall",
           "named": true
         },
@@ -40128,6 +40264,10 @@
         },
         {
           "type": "rune",
+          "named": true
+        },
+        {
+          "type": "seriesTerminator",
           "named": true
         },
         {
@@ -48701,6 +48841,10 @@
           "named": true
         },
         {
+          "type": "seriesTerminator",
+          "named": true
+        },
+        {
           "type": "sigbarTall",
           "named": true
         },
@@ -50415,6 +50559,10 @@
           "named": true
         },
         {
+          "type": "seriesTerminator",
+          "named": true
+        },
+        {
           "type": "sigbarTall",
           "named": true
         },
@@ -52095,6 +52243,11 @@
     }
   },
   {
+    "type": "coreTerminator",
+    "named": true,
+    "fields": {}
+  },
+  {
     "type": "date",
     "named": true,
     "fields": {}
@@ -52757,6 +52910,10 @@
         },
         {
           "type": "rune",
+          "named": true
+        },
+        {
+          "type": "seriesTerminator",
           "named": true
         },
         {
@@ -61399,6 +61556,10 @@
         {
           "type": "typeUnion",
           "named": true
+        },
+        {
+          "type": "wrapFace",
+          "named": true
         }
       ]
     }
@@ -61633,6 +61794,10 @@
         },
         {
           "type": "typeUnion",
+          "named": true
+        },
+        {
+          "type": "wrapFace",
           "named": true
         }
       ]
@@ -64856,6 +65021,10 @@
         {
           "type": "typeUnion",
           "named": true
+        },
+        {
+          "type": "wrapFace",
+          "named": true
         }
       ]
     }
@@ -64982,6 +65151,10 @@
         },
         {
           "type": "typeUnion",
+          "named": true
+        },
+        {
+          "type": "wrapFace",
           "named": true
         }
       ]
@@ -73748,6 +73921,10 @@
         {
           "type": "typeUnion",
           "named": true
+        },
+        {
+          "type": "wrapFace",
+          "named": true
         }
       ]
     }
@@ -73874,6 +74051,10 @@
         },
         {
           "type": "typeUnion",
+          "named": true
+        },
+        {
+          "type": "wrapFace",
           "named": true
         }
       ]
@@ -79368,6 +79549,10 @@
         {
           "type": "typeUnion",
           "named": true
+        },
+        {
+          "type": "wrapFace",
+          "named": true
         }
       ]
     }
@@ -82228,6 +82413,10 @@
         },
         {
           "type": "rune",
+          "named": true
+        },
+        {
+          "type": "seriesTerminator",
           "named": true
         },
         {
@@ -90801,6 +90990,10 @@
           "named": true
         },
         {
+          "type": "seriesTerminator",
+          "named": true
+        },
+        {
           "type": "sigbarTall",
           "named": true
         },
@@ -94226,6 +94419,10 @@
         },
         {
           "type": "rune",
+          "named": true
+        },
+        {
+          "type": "seriesTerminator",
           "named": true
         },
         {
@@ -103610,6 +103807,10 @@
         },
         {
           "type": "rune",
+          "named": true
+        },
+        {
+          "type": "seriesTerminator",
           "named": true
         },
         {
@@ -123158,6 +123359,10 @@
           "named": true
         },
         {
+          "type": "seriesTerminator",
+          "named": true
+        },
+        {
           "type": "sigbarTall",
           "named": true
         },
@@ -127664,10 +127869,6 @@
             "named": false
           },
           {
-            "type": "=",
-            "named": false
-          },
-          {
             "type": "Gap",
             "named": true
           },
@@ -127857,6 +128058,10 @@
           },
           {
             "type": "typeUnion",
+            "named": true
+          },
+          {
+            "type": "wrapFace",
             "named": true
           }
         ]
@@ -128982,10 +129187,6 @@
             "named": false
           },
           {
-            "type": "=",
-            "named": false
-          },
-          {
             "type": "[",
             "named": false
           },
@@ -129107,6 +129308,10 @@
           },
           {
             "type": "typeUnion",
+            "named": true
+          },
+          {
+            "type": "wrapFace",
             "named": true
           }
         ]
@@ -140668,6 +140873,10 @@
           "named": true
         },
         {
+          "type": "seriesTerminator",
+          "named": true
+        },
+        {
           "type": "sigbarTall",
           "named": true
         },
@@ -146490,6 +146699,10 @@
         {
           "type": "typeUnion",
           "named": true
+        },
+        {
+          "type": "wrapFace",
+          "named": true
         }
       ]
     }
@@ -146540,7 +146753,7 @@
     "fields": {},
     "children": {
       "multiple": true,
-      "required": true,
+      "required": false,
       "types": [
         {
           "type": "addCell",
@@ -147264,6 +147477,10 @@
         {
           "type": "typeUnion",
           "named": true
+        },
+        {
+          "type": "wrapFace",
+          "named": true
         }
       ]
     }
@@ -147926,6 +148143,10 @@
         },
         {
           "type": "rune",
+          "named": true
+        },
+        {
+          "type": "seriesTerminator",
           "named": true
         },
         {
@@ -156499,6 +156720,10 @@
           "named": true
         },
         {
+          "type": "seriesTerminator",
+          "named": true
+        },
+        {
           "type": "sigbarTall",
           "named": true
         },
@@ -159927,6 +160152,10 @@
           "named": true
         },
         {
+          "type": "seriesTerminator",
+          "named": true
+        },
+        {
           "type": "sigbarTall",
           "named": true
         },
@@ -161638,6 +161867,10 @@
         },
         {
           "type": "rune",
+          "named": true
+        },
+        {
+          "type": "seriesTerminator",
           "named": true
         },
         {
@@ -183764,10 +183997,6 @@
     "named": false
   },
   {
-    "type": "==",
-    "named": false
-  },
-  {
     "type": ">",
     "named": false
   },
@@ -183813,6 +184042,10 @@
   },
   {
     "type": "rune",
+    "named": true
+  },
+  {
+    "type": "seriesTerminator",
     "named": true
   },
   {

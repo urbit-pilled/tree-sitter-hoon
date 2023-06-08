@@ -94,6 +94,7 @@ coltar_tall
         (name) (Gap)
         (name) (Gap)
         (name) (Gap)
+        (seriesTerminator)
     )
 )
 
@@ -123,6 +124,7 @@ colsig_tall
         (name) (Gap)
         (name) (Gap)
         (name) (Gap)
+        (seriesTerminator)
     )
 )
 

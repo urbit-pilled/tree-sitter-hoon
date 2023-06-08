@@ -97,11 +97,12 @@ d
 ---
 
 (source_file
-    (sigcenTall (rune) (Gap) (term (name)) (Gap) (number) (Gap) (Gap)
+    (sigcenTall (rune) (Gap) (term (name)) (Gap) (number) (Gap) 
+    (seriesTerminator)  (Gap)
         (name) (Gap) (number) (Gap)
         (name) (Gap) (number) (Gap)
         (name) (Gap) (number) (Gap)
-    (Gap)
+    (seriesTerminator)  (Gap)
     (name)
     ) (Gap)
     (sigcenTall (rune) (Gap) (term (name)) (Gap) (number) (Gap) (Gap) (name))

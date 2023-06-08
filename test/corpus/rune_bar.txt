@@ -37,6 +37,7 @@ barcab_tall
     (luslusTall (rune) (Gap) (name) (Gap) (name)) (Gap)
     (luslusTall (rune) (Gap) (name) (Gap) (name)) (Gap)
     (luslusTall (rune) (Gap) (name) (Gap) (name)) (Gap)
+    (coreTerminator)
     )
 )
 
@@ -75,6 +76,7 @@ barcen_tall
     (luslusTall (rune) (Gap) (name) (Gap) (name)) (Gap)
     (luslusTall (rune) (Gap) (name) (Gap) (name)) (Gap)
     (luslusTall (rune) (Gap) (name) (Gap) (name)) (Gap)
+    (coreTerminator)
     )
 )
 
@@ -113,6 +115,7 @@ barket_tall
     (luslusTall (rune) (Gap) (name) (Gap) (name)) (Gap)
     (luslusTall (rune) (Gap) (name) (Gap) (name)) (Gap)
     (luslusTall (rune) (Gap) (name) (Gap) (name)) (Gap)
+    (coreTerminator)
     )
 )
 
@@ -211,6 +214,7 @@ barpat_tall
     (luslusTall (rune) (Gap) (name) (Gap) (name)) (Gap)
     (luslusTall (rune) (Gap) (name) (Gap) (name)) (Gap)
     (luslusTall (rune) (Gap) (name) (Gap) (name)) (Gap)
+    (coreTerminator)
     )
 )
 

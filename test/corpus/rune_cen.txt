@@ -17,6 +17,7 @@ cencab_tall
         (name) (Gap)
         (lark) (Gap)
         (name) (Gap)
+        (seriesTerminator)
     )
 )
 
@@ -48,6 +49,7 @@ cencol_tall
         (name) (Gap)
         (name) (Gap)
         (name) (Gap)
+        (seriesTerminator)
     )
 )
 
@@ -192,6 +194,7 @@ centar_tall
         (name) (Gap)
         (lark) (Gap)
         (name) (Gap)
+        (seriesTerminator)
     )
 )
 
@@ -221,6 +224,7 @@ centis_tall
         (name) (Gap)
         (lark) (Gap)
         (name) (Gap)
+        (seriesTerminator)
     )
 )
 

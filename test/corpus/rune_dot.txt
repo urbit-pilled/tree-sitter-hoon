@@ -18,6 +18,7 @@ dotket_tall
         (name) (Gap)
         (name) (Gap)
         (name) (Gap)
+        (seriesTerminator)
     )
 )
 
