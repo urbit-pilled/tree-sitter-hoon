@@ -1,7 +1,6 @@
 tree-sitter
 node_modules
-test.hoon
-test2.hoon
+test*.hoon
 *.wasm
 
 package-lock.json
