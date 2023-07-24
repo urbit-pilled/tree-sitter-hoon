@@ -685,7 +685,7 @@ module.exports = grammar({
 
         _tapeOrCord: $ => seq(
             $._stringStart,
-            repeat(choice($.interpolation, $._stringContent)),
+            repeat(choice($.interpolation, $.stringContent)),
             $._stringEnd,
         ),
         tapeOrCord: $ => seq(
@@ -711,7 +711,7 @@ module.exports = grammar({
     externals: $ => [
         $.indent,
         $._stringStart,
-        $._stringContent,
+        $.stringContent,
         $._stringEnd,
     ]
 });
