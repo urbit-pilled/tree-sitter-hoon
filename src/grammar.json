@@ -12101,7 +12101,7 @@
               },
               {
                 "type": "SYMBOL",
-                "name": "_stringContent"
+                "name": "stringContent"
               }
             ]
           }
@@ -12300,7 +12300,7 @@
     },
     {
       "type": "SYMBOL",
-      "name": "_stringContent"
+      "name": "stringContent"
     },
     {
       "type": "SYMBOL",

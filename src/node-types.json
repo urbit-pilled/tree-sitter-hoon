@@ -120930,6 +120930,10 @@
         {
           "type": "interpolation",
           "named": true
+        },
+        {
+          "type": "stringContent",
+          "named": true
         }
       ]
     }
@@ -184035,6 +184039,10 @@
   },
   {
     "type": "seriesTerminator",
+    "named": true
+  },
+  {
+    "type": "stringContent",
     "named": true
   },
   {
