@@ -5,7 +5,7 @@ single line tape
 ---
 
 (source_file
-    (string (tape))
+    (string (tapeOrCord))
 )
 
 ==================
@@ -15,7 +15,7 @@ dot combined tape
 ---
 
 (source_file
-    (string (tape))
+    (string (tapeOrCord))
 )
 
 ==================
@@ -31,7 +31,7 @@ hello
 ---
 
 (source_file
-    (string (tape))
+    (string (tapeOrCord))
 )
 
 ==================
@@ -42,13 +42,19 @@ interpolated tape
 ---
 
 (source_file
-    (string (tape
-        (gateCall (name) (term (name)) (name))
+    (string (tapeOrCord
+        (interpolation
+            (gateCall (name) (term (name)) (name))
+        )
     ))
     (Gap)
-    (string (tape
-        (wutcolWide (rune) (rune) (name) (string (tape)) (string (tape)))
-        (gateCall (name) (name))
+    (string (tapeOrCord
+        (interpolation
+            (wutcolWide (rune) (rune) (name) (string (tapeOrCord)) (string (tapeOrCord)))
+        )
+        (interpolation
+            (gateCall (name) (name))
+        )
     ))
 )
 
@@ -62,5 +68,12 @@ interpolated multiline tape
 ---
 
 (source_file
-    (string (tape))
+    (string (tapeOrCord
+        (interpolation
+            (gateCall (name) (term (name)) (name))
+        )
+        (interpolation
+            (tankTape (aura))
+        )
+    ))
 )
