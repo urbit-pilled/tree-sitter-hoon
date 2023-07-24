@@ -5,7 +5,7 @@ single line cord
 ---
 
 (source_file
-    (string (tapeOrCord))
+    (string (tapeOrCord (stringContent)))
 )
 
 ==================
@@ -18,5 +18,5 @@ line cord
 ---
 
 (source_file
-    (string (tapeOrCord))
+    (string (tapeOrCord (stringContent)))
 )
