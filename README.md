@@ -1,7 +1,7 @@
 # tree-sitter-hoon
 Tree-sitter grammar for urbit language hoon
 
-## Using tree-sitter with the tree-sitter command line tool
+## Using the tree-sitter command line tool
 You can install the tree-sitter-cli with cargo:
 
 ```
