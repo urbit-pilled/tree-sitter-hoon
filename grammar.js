@@ -641,7 +641,7 @@ module.exports = grammar({
             $.phonemic,
         ),
 
-        lineComment: $ => seq(optional($._space), "::", /[^\n]*/),
+        lineComment: $ => seq(optional(" "), "::", /[^\n]*/),
         name: $ => choice("$", /[a-zA-Z][a-zA-Z0-9-]*/),
         number: $ => prec.right(0, choice(
             seq(optional(choice("--", "-")), choice(
