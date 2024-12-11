@@ -29,4 +29,4 @@ Instructions on how to integrate tree-sitter with your editor/IDE here: https://
 
 ## Reference
 
-https://developers.urbit.org/reference/hoon/rune
+https://docs.urbit.org/language/hoon/reference/rune
